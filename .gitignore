@@ -1,0 +1,9 @@
+.env
+/node_modules
+/frontend/node_modules
+/backend/.mvn
+/backend/target
+/ai-engine/__pycache__
+/ai-engine/.venv
+/database/data
+ai-engine/.venv

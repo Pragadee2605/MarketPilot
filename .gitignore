@@ -1,10 +1,42 @@
+# Environment files
 .env
+.env.local
+.env.*.local
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# Artifacts & Local Cache
+.artifacts/
+/database/data
+
+# Node / Frontend
+node_modules/
 /node_modules
 /frontend/node_modules
-/backend/.mvn
-/backend/target
-/ai-engine/__pycache__
-/ai-engine/.venv
-/database/data
-ai-engine/.venv
+/frontend/dist
+/frontend/.vite
 
+# Java / Backend
+/backend/target
+/backend/.mvn
+*.class
+*.jar
+
+# Python / AI Engine
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+ai-engine/.venv/
+ai-engine/__pycache__/
+ai-engine/.pytest_cache/

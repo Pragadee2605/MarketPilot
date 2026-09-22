@@ -26,7 +26,7 @@ MarketPilot queries **7+ specialized SerpApi engines** to gather 360-degree real
 
 ---
 
-## ✨ Key Winning Features
+## ✨ Key Features
 1. **🎯 Fact vs. Inference Matrix**: Separates verified SerpApi facts from AI inferences with plain-English explanations.
 2. **🏢 Competitor Comparison Matrix**: Side-by-side benchmark table showing real ratings, review counts, pricing tiers, and direct original source links (`Source ↗`).
 3. **🛡️ Interactive Risk-to-Mitigation Matrix**: Explains *"Why this impacts you"* and *"How to fix it"* in plain, simple, beginner-friendly language.

@@ -42,20 +42,7 @@ MarketPilot queries **7+ specialized SerpApi engines** to gather 360-degree real
 ## 🏗️ Architecture
 <img src="img.png" alt="MarketPilot Architecture" width="900" />
 
-```text
-React + Vite (Enterprise Light Theme UI)
-      │
-      ▼ REST API
-Spring Boot + Java 21 (API Orchestrator & PostgreSQL Provenance DB)
-      │
-      ▼ HTTP Bridge
-Python + FastAPI (Multi-Agent Planner & Evidence Scorer)
-      │
-      ├───────────────────────┬───────────────────────┐
-      ▼                       ▼                       ▼
-   SerpApi                 OpenRouter             PostgreSQL
-(7+ Multi-Engines)    (Multi-Model Fallback)   (Relational DB)
-```
+
 
 ---
 
@@ -68,8 +55,8 @@ SERPAPI_KEY=your_serpapi_key_here
 OPENROUTER_API_KEY=your_openrouter_key_here
 OPENROUTER_MODEL=meta-llama/llama-3.1-70b-instruct:free
 DATABASE_URL=jdbc:postgresql://localhost:5432/MarketPilot
-DATABASE_USERNAME=pragadeeswaran
-DATABASE_PASSWORD=pragadees
+DATABASE_USERNAME=
+DATABASE_PASSWORD=
 ```
 
 ### 2) Python AI Engine
